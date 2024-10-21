@@ -1,2 +1,2 @@
-This project is made by express js  and node js.
+This project is made from express js  and node js.
 where you can create a task with full description and display it when you want to display.
