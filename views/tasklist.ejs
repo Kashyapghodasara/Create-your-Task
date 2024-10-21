@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Form</title>
+  <link rel="stylesheet" href="./stylesheet/tasklist.css">
+</head>
+<body>
+  <div class="form-container">
+    <form action="/create" method="post">
+      <input type="text" placeholder="Enter the Title" class="input-field" name="title">
+      <textarea placeholder="Your message" class="textarea-field" name="details"></textarea>
+      <input type="submit" value="Submit" class="btn">
+    </form>
+    <%if (files.length > 0) { %>
+        <% files.forEach(function(val) { %>
+            <div class="info-box">
+                <h2 class="heading"><%= val %></h2> <!-- Display the file name -->
+                <a href="/file/<%= val %>" class="read-more">Read More</a>
+                <!-- we can use the File name as Routes(params) so it is easy to read the file using params --> 
+            </div>
+        <% }); %>
+    <% }else { %>
+        <h2>There is NO Tasks Exist</h2>
+    <% } %>
+     
+    </div>
+  <script src="./javascript/tasklist.js"></script>
+</body>
+</html>

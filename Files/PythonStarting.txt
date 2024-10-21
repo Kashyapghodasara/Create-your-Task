@@ -1,0 +1,12 @@
+Great! I'd love to help you learn Python. Let's start by understanding your current level of programming knowledge. Here are a few questions to help me tailor the lessons to your needs:
+
+Have you programmed before? If so, what languages have you used?
+Do you know any basic programming concepts (like variables, loops, or functions)?
+What’s your goal with learning Python? (e.g., data analysis, web development, automation, general programming skills, etc.)
+Once I know more, we can dive in at the right level!
+
+
+
+
+
+

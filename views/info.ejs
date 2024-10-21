@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inforamtion Page</title>
+    <style>
+        * {
+            margin: 10px;
+            margin-top: 25px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        body {
+            background-color: rgb(46, 48, 49);
+        }
+        .Information {
+            background-color: #424040;
+            border-radius: 5px;
+        }
+        a {
+            text-decoration: none;
+            margin-bottom: 10px;
+            color: #1279e0;
+        }
+        h1 {
+            margin-top: 50px;
+            color: #da6410;
+            padding-top: 15px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 40px;
+        }
+        pre {
+            padding-bottom: 15px;
+            font-size: 18px;
+            color:#000000;
+            text-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <a href="/">Home Page</a>
+    <div class="Information">
+        <h1><%= filename %></h1>
+        <pre><%= filedata %></pre>
+    </div>
+</body>
+</html>
